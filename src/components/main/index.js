@@ -33,7 +33,7 @@ const Main = () => {
         <>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
+                    <div class="accordion-header" id="headingOne">
                     <div className='container  text-center accordion-button collapsed' style={{ paddingTop: '5%' }}
                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     <div className='row'><div className='col'>
@@ -42,7 +42,7 @@ const Main = () => {
                     </div>
                 </div>
                        
-                    </h2>
+                    </div>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
                         <div class="accordion-body">
                             <div className="container text-center ">
@@ -62,6 +62,28 @@ const Main = () => {
                                             </div>
                                         </div>
                                     ))}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" id="headingTwo">
+                    <div className='container  text-center accordion-button collapsed' style={{ paddingTop: '5%' }}
+                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div className='row'><div className='col'>
+                        <h3>  <span style={{ fontWeight: 'bold' }}> APOD :</span> Astronomy Picture of the Day</h3>
+                    </div>
+                    </div>
+                </div>
+                       
+                    </div>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" >
+                        <div class="accordion-body">
+                            <div className="container text-center ">
+
+                                <div className="row">
+                                    sss
                                 </div>
                             </div>
                         </div>
