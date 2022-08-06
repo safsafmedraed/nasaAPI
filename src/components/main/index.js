@@ -27,7 +27,7 @@ const Main = () => {
 
     return loading ? <div><Spinner /></div> : (
         <>
-            <div className="accordion" id="accordionExample">
+            <div className="accordion" id="accordionExample" style={{marginBottom:'200px'}}>
                 {/* item 1 */}
                 <div className="accordion-item">
                     <div className="accordion-header" id="headingOne">

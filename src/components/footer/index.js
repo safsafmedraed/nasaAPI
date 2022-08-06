@@ -8,12 +8,14 @@ const Footer = () => {
           style={{
             color: "#fff",
             fontWeight: 600,
-            margin: 0,
+         paddingTop:'50px',
             fontSize: "0.95em",
             fontFamily: "Helvetica Neue ,Helvetica,Arial, sans-serif",
+            float:'right'
+            
           }}
         >
-          National Aeronautics and Space Administration
+     <div style={{color:'red'}}> Made with &#x2764; by safsaf raed</div>  
         </span>
       </div>
     </footer>
